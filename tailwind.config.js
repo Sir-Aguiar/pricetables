@@ -8,9 +8,8 @@ module.exports = {
         'pro':'#facb2f'
       },
       screens: {
-        'mobile': { 'min': '260px', 'max': '650px' },
-        'tablet': { 'min': '651px', 'max': '750px' },
-        'laptop': { 'min': '751px', 'max': '1100px' },
+        'mobile': { 'min': '260px', 'max': '900px' },
+        'laptop': { 'min': '901px', 'max': '1100px' },
         'desktop': { 'min': '1280px' }
       },
       spacing: {

@@ -30,7 +30,7 @@ body {
   @apply m-2 w-cardw shadow-lg shadow-green-300 bg-gradient-to-b h-card from-teal-300 to-sky-300;
 }
 .card-header {
-  @apply p-5 rounded-t-md rounded-b-sm;
+  @apply p-5 laptop:p-2 rounded-t-md rounded-b-sm;
 }
 .card-content {
   @apply flex items-start flex-1 
@@ -42,13 +42,13 @@ body {
   @apply leading-6 pl-4 list-none flex flex-col justify-center  flex-1
 }
 .card-list li {
-  @apply flex flex-row items-center my-3
+  @apply flex flex-row items-center my-3 laptop:my-2
 }
 .card-list p {
   @apply text-lg font-semibold text-slate-800 text-opacity-60 
 }
 .card-list img {
-  @apply mx-4 w-5
+  @apply mx-3 w-4
 }
 .buy-button {
   @apply bg-transparent border-4 text-slate-800 text-xl p-3 rounded-2xl w-full

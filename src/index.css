@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header-container {
+  @apply bg-blue-600 w-full p-3 mobile:p-2 text-center text-slate-200;
+}
+
+.header-title {
+  @apply text-5xl font-semibold my-2 mobile:my-1 mobile:text-3xl;
+}
+.price-tables {
+  @apply w-full flex flex-row p-4 flex-1 justify-around mobile:px-3 mobile:flex-col mobile:items-center;
+}
+
+.price-card {
+  @apply shadow-md flex flex-col shadow-slate-400 rounded-md h-card mt-6  w-80 bg-slate-100 mobile:w-80 mobile:m-3;
+}
+
+.middle {
+  @apply m-2 w-cardw shadow-lg shadow-green-300 bg-gradient-to-b h-card from-teal-300 to-sky-300;
+}
+.card-header {
+  @apply p-5 rounded-t-md rounded-b-sm;
+}
+.card-content {
+  @apply flex items-start flex-1 
+}
+.card-header h1 {
+  @apply text-3xl
+}
+.card-list {
+  @apply leading-6 pl-4 list-none flex flex-col justify-center  flex-1
+}
+.card-list li {
+  @apply flex flex-row items-center my-3
+}
+.card-list p {
+  @apply text-lg font-semibold text-slate-800 text-opacity-60 
+}
+.card-list img {
+  @apply mx-4 w-5
+}
+.buy-button {
+  @apply bg-transparent border-4 text-slate-800 text-xl p-3 rounded-2xl w-full
+}
